@@ -1,0 +1,137 @@
+{
+  "id": "9b58c5fa-757b-446b-863d-4a14db9b25e5",
+  "name": "menu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our available menu: Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa. Also specify a quantity for each item for example: \"One pizza and 2 chole bhature\". Please say \"New Order\" to start an order if you didn't."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Show me the food options.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b05daa05-e9ae-4925-869c-2e3510ceb0f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I see the menu?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "464b9cc2-310c-4e09-a84b-c5b603958a06",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can i get",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31cfcba5-01b7-42c4-a7a4-71e9cfc85079",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what food items are there?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91b9cee1-1f0b-43cf-a54f-63701edd44dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9221afce-1747-4cf9-9b74-e0c1dd6a48a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "menu plz",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d67d784-660d-4feb-870b-bfb20632cdf9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can i order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cd3b553c-74f4-4be7-9e05-e8cb72e39781",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show me menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80f3dfe2-a86d-44e5-9e28-fc9df515c62c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,214 @@
+{
+  "id": "2d7adc62-e9c9-4718-b8fb-08f206cabb3b",
+  "name": "Thank_you",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "ongoing-order"
+  ],
+  "contexts": [
+    "ongoing-order"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You're welcome! Enjoy your meal!",
+            "My pleasure! We hope you enjoy your food!",
+            "Happy to help! Bon appétit!",
+            "No problem at all! Have a great meal!",
+            "Glad I could assist! Enjoy your dining experience!",
+            "Goodbye! We look forward to serving you again!",
+            "Looking forward to your next visit! Have a great meal!",
+            "Happy to help! Thank you for dining with us.",
+            "Your satisfaction is our priority. Thanks for letting us know! Enjoy your meal."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "have a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2e2b275f-6a68-415b-8b78-70f160763f0f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1bf2bdfc-b0b4-4717-9704-b340b310e1c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Excellent service",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3e1bf747-87ef-4738-9623-d816bbffbe7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "You've been very helpful",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8eb05ef6-4e95-4944-bd79-f7d293ec8aea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Great service",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bbd7e46b-a5bd-4c93-9766-45f10add95aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "This is great",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7456113-5348-404e-bc36-45d89b6028b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Perfect",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4f513bc-77e1-4dc2-8826-56477b89207a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Everything looks good",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a729a9e8-75b4-43ad-9b0b-7d7c76eaf0a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Have a great day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3a06807-608d-4ee6-a748-6fb29dacbf7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thanks a bunch",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8f1ac87-205f-41f2-ac20-935d29a17dab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Much appreciated",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a8c533e-004b-413c-8799-40ed0ce5263e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you very much",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fd3a8d8d-bf9c-4c3a-928d-536f8c7dea6e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "50458b67-0403-44d9-bb1c-4fd382873e85",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

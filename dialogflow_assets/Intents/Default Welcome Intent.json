@@ -1,0 +1,320 @@
+{
+  "id": "7584ea3b-7a0d-48e9-a13b-2ce965007cb5",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "color",
+          "dataType": "@sys.color",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$color",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi! How are you doing? Say \"Menu\" to view list of food items or \"New Order\" to start ordering or \"Track Order\" to get your order status.",
+            "Hello! How can I help you? Say \"Menu\" to view list of food items or \"New Order\" to start ordering or \"Track Order\" to get your order status.",
+            "Good day! What can I do for you today? Say \"Menu\" to view list of food items or \"New Order\" to start ordering or \"Track Order\" to get your order status.",
+            "Greetings! How can I assist? Say \"Menu\" to view list of food items or \"New Order\" to start ordering or \"Track Order\" to get your order status."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "884cf93b-12a8-4d9e-90c1-be7da1d3ee3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "welcome",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25da56e9-3aeb-400c-bbda-bd2b59965b5f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f128bca6-f3ac-47c6-8d85-1b68dfe18d47",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5826ea04-f150-4fba-8c05-2cef247808cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "151078a7-e870-488f-bf7a-0cdfd47c4682",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d0c1348-3502-42b5-b769-690e38d81841",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afadd1db-cb9e-4cb2-99f5-fb83965afa02",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "7e82f16c-df23-478f-9761-2ebbf8b20626",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4546a769-b61e-41fe-a970-ac374a12dc85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2e7d908b-16da-4bbc-9b59-f02759be286b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good afternoon",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3273a58d-d689-4b32-bdfc-fbe31f388268",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good ",
+          "userDefined": false
+        },
+        {
+          "text": "evening",
+          "userDefined": false,
+          "alias": "color",
+          "meta": "@sys.color"
+        }
+      ],
+      "count": 0,
+      "id": "af077f4c-c6e2-419d-9a1c-d93ee9ee3ed5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good morning",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b48595f-276d-40fe-925e-992d35c78419",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "long time no see",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81c65d5f-c895-408c-a1ca-102e0e9902dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8325382f-a90b-4148-a29e-ffa1a2e57f22",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely day isn't it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "33331027-1776-4215-bd60-084ce7b8d144",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I greet you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1137881-a576-4356-b271-37980d1a2267",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93ca9b5e-20b3-4644-a10d-5796dc0dc3a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b345ad7-8cda-40d5-a7c1-ce02863ede28",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aaefee49-2d4e-464a-ab62-af671502a21d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce58139b-2f9e-4516-a61a-8380b93c4719",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

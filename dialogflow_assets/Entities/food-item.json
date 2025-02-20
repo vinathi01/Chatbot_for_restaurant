@@ -1,0 +1,92 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": true,
+  "name": "food-item",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Pav Bhaji",
+      "synonyms": [
+        "Pav Bhaji",
+        "Bhaji Pav"
+      ]
+    },
+    {
+      "value": "Chole Bhature",
+      "synonyms": [
+        "Chole Bhature",
+        "Chole",
+        "Chhole Bhature",
+        "Chole puri",
+        "puri Chole",
+        "Bhature chole"
+      ]
+    },
+    {
+      "value": "Pizza",
+      "synonyms": [
+        "Pizza",
+        "pizzas",
+        "cheese pizza",
+        "piza",
+        "pizz"
+      ]
+    },
+    {
+      "value": "Mango Lassi",
+      "synonyms": [
+        "Mango Lassi",
+        "aam lassi",
+        "am lassi",
+        "mango lasi",
+        "mango drink"
+      ]
+    },
+    {
+      "value": "Masala Dosa",
+      "synonyms": [
+        "Masala Dosa",
+        "Dosa",
+        "masale dosa",
+        "dosa masala"
+      ]
+    },
+    {
+      "value": "Vegetable biryani",
+      "synonyms": [
+        "Vegetable biryani",
+        "veggi rice",
+        "veg rice",
+        "vegetable rice",
+        "veg biryani"
+      ]
+    },
+    {
+      "value": "Vada pav",
+      "synonyms": [
+        "Vada pav",
+        "pav vada",
+        "wada pav"
+      ]
+    },
+    {
+      "value": "Rava dosa",
+      "synonyms": [
+        "Rava dosa",
+        "dosa rava",
+        "ravva dosa"
+      ]
+    },
+    {
+      "value": "samosa",
+      "synonyms": [
+        "samosa",
+        "aloo samosa",
+        "samose"
+      ]
+    }
+  ],
+  "id": "d2f5f12b-0423-4532-bd9d-1dbca0483369",
+  "isOverridable": false
+}

@@ -1,0 +1,149 @@
+{
+  "id": "1879c3ec-1c26-4fac-8518-38e9d03cf687",
+  "name": "Hungry_expressions",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi there! I'm glad you reached out. We have a delicious menu that will surely satisfy your hunger. Just type 'menu' to see all the items we offer. If you're in the mood for something specific, feel free to let me know, and I can make some recommendations!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need a meal.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6bc445af-776e-42b3-98f4-04861e976293",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's for dinner?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d246f5b1-0472-478d-b94c-acc8c420beb9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Got any food?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d38c0e37-924d-46c5-b2cb-8eeb9205a2c7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm feeling hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1c4010c3-2ee8-40a4-826b-36f92217032e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What do you have to eat?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5d572e22-75c2-44da-aa51-1662bd40bd4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'm starving.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f706be4-9e93-4fab-b00b-6a1d973d6b15",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need something to eat.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46b79b13-38c1-43dc-a1de-66f3c5734ce3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f9c110c-0fbe-4c69-87fe-d5ed9608ad6f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a4614aa8-aacb-4881-b2f3-ab5ed5555abb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

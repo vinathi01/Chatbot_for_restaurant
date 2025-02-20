@@ -1,0 +1,144 @@
+{
+  "id": "a154b966-ae8e-4c26-b1df-e003f18a65a3",
+  "name": "track order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Definitely. What is your order id?",
+            "Sure. Please enter your order id.",
+            "Please tell your order id which needs to be tracked."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "trak order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9da66ff0-be0c-4227-b5e4-114e8bf25706",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "trck order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fca2b90f-2925-48d2-b115-013fd6c72cb6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tracking",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9f428003-49c1-47c9-97cd-ccba4f7bfca9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how much far is my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3846bce8-cdb5-4509-a6e1-4e012adc360d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc96d29f-4e03-4b6f-a842-49d78669e4d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track existing order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "26ba114e-2bd2-4ec3-9f0b-80896151c90d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1878644d-38bc-4ef3-949a-aaf084dc1e55",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "check the status of my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab9bd2af-d3d6-495a-a85f-f6b0e81f97aa",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
