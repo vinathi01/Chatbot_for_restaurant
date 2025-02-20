@@ -111,10 +111,10 @@ To enable external access to the FastAPI server and integrate it with Dialogflow
 To run the web-based customer interface:
 
 Navigate to the frontend directory:
+```bash
+cd frontend
+```
 
-    ```
-    cd frontend
-    ```
 Open the index.html file in a browser or serve it using a local server:
 ```
 python -m http.server 8080
