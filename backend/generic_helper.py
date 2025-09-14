@@ -1,5 +1,3 @@
-
-
 import re
 
 def get_str_from_food_dict(food_dict: dict):
@@ -14,3 +12,4 @@ def extract_session_id(session_str: str):
         return extracted_string
 
     return ""
+
