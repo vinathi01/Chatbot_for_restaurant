@@ -3,8 +3,8 @@ global cnx
 
 cnx = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="Vinathi@CVR!!",
+    user="< ur username >",
+    password="<ur pwd >",
     database="pandeyji_eatery"
 )
 
@@ -117,3 +117,4 @@ if __name__ == "__main__":
     # insert_order_item('Pav Bhaji', 1, 99)
     # insert_order_tracking(99, "in progress")
     print(get_next_order_id())
+
